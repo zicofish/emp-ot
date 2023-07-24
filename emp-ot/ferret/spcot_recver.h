@@ -5,8 +5,7 @@
 #include "emp-ot/emp-ot.h"
 #include "emp-ot/ferret/twokeyprp.h"
 
-using namespace emp;
-
+namespace emp {
 template<typename IO>
 class SPCOT_Recver {
 public:
@@ -106,4 +105,5 @@ public:
 		delete[] chi;
 	}
 };
+}
 #endif

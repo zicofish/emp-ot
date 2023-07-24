@@ -2,7 +2,8 @@
 #define EMP_LPN_F2K_H__
 
 #include "emp-tool/emp-tool.h"
-using namespace emp;
+
+namespace emp {
 
 //Implementation of local linear code on F_2^k
 //Performance highly dependent on the CPU cache size
@@ -110,4 +111,5 @@ class LpnF2 { public:
 	}
 
 };
+}
 #endif

@@ -2,8 +2,8 @@
 #define  _PRE_OT__
 #include "emp-tool/emp-tool.h"
 #include "emp-ot/emp-ot.h"
-using namespace emp;
 
+namespace emp {
 template<typename IO>
 class OTPre { public:
 	IO* io;
@@ -88,4 +88,5 @@ class OTPre { public:
 		}
 	}
 };
+}
 #endif// _PRE_OT__

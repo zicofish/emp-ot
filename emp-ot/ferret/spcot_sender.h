@@ -5,8 +5,7 @@
 #include "emp-ot/emp-ot.h"
 #include "emp-ot/ferret/twokeyprp.h"
 
-using namespace emp;
-
+namespace emp {
 template<typename IO>
 class SPCOT_Sender { public:
 	block seed;
@@ -97,5 +96,5 @@ class SPCOT_Sender { public:
 		delete[] chi;
 	}
 };
-
+}
 #endif

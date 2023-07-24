@@ -3,6 +3,7 @@
 
 #include "emp-ot/ferret/preot.h"
 
+namespace emp {
 template<typename IO>
 class BaseCot { public:
    int party;
@@ -117,5 +118,5 @@ class BaseCot { public:
 		}
 	}
 };
-
+}
 #endif

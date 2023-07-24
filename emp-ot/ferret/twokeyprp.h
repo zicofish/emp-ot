@@ -2,8 +2,7 @@
 #define EMP_FERRET_TWO_KEY_PRP_H__
 
 #include "emp-tool/emp-tool.h"
-using namespace emp;
-
+namespace emp {
 //kappa->2kappa PRG, implemented as G(k) = PRF_seed0(k)\xor k || PRF_seed1(k)\xor k
 class TwoKeyPRP { public:
 	emp::AES_KEY aes_key[2];
@@ -63,4 +62,5 @@ class TwoKeyPRP { public:
 	}
 
 };
+}
 #endif

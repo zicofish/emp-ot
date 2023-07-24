@@ -7,9 +7,9 @@
 #include "emp-ot/ferret/spcot_recver.h"
 #include "emp-ot/ferret/preot.h"
 
-using namespace emp;
 using std::future;
 
+namespace emp {
 template<typename IO>
 class MpcotReg {
 public:
@@ -211,4 +211,5 @@ public:
 		}
 	}
 };
+}
 #endif
